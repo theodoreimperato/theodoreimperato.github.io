@@ -2,7 +2,7 @@
 ### Objectifs :
 ###### 1. Mettre en oeuvre les technologies web pour créer et héberger mon portfolio
 
- [![N|Solid](https://imgur.com/eExJeiK.png)](https://netbeans.apache.org/) [![N|Solid](https://imgur.com/8UhUYoD.png)](https://developer.mozilla.org/fr/docs/Web/HTML) [![N|Solid](https://imgur.com/nbpyd1P.png)](https://developer.mozilla.org/fr/docs/Web/CSS) [![N|Solid](https://imgur.com/keqgrtE.png)](https://getbootstrap.com/)       [![N|Solid](https://imgur.com/xvHGAvT.png)](https://www.cisco.com/c/fr_fr/index.html) ![N|Solid](https://i.imgur.com/hd9hxpW.png)
+ [![N|Solid](https://imgur.com/eExJeiK.png)](https://netbeans.apache.org/) [![N|Solid](https://imgur.com/8UhUYoD.png)](https://developer.mozilla.org/fr/docs/Web/HTML) [![N|Solid](https://imgur.com/nbpyd1P.png)](https://developer.mozilla.org/fr/docs/Web/CSS) [![N|Solid](https://imgur.com/keqgrtE.png)](https://getbootstrap.com/)       [![N|Solid](https://imgur.com/xvHGAvT.png)](https://www.cisco.com/c/fr_fr/index.html)  ![N|Solid](https://i.imgur.com/hd9hxpW.png)
 
 - NetBeans : Environement de développement intégré (IDE) utilisé pour ce projet
 - HTML : Langage de description utilisé pour concevoir les pages web
