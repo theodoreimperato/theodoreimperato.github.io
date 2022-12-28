@@ -36,6 +36,9 @@ body {
 #cv-intro h1 span {
     color: rgb(226,0,26);
 }
+#cv-intro h4 span {
+    color: rgb(226,0,26);
+}
 #cv-intro::after {
     background: url('images/ligne.png'); /* Dossier "images" est un sous-
      dossier de "css" (à créer) */
