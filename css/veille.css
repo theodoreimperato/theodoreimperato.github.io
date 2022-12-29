@@ -38,14 +38,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     align-items: center;
     justify-content: space-between;
 }
-@media (max-width: 947px)
-.max-width {
-    max-width: 930px;
-}
-@media (max-width: 991px)
-.max-width {
-    padding: 0 50px;
-}
+
 section .title {
     position: relative;
     text-align: center;
@@ -82,8 +75,8 @@ section .title {
     color: #111;
     background: #e9ecef;
 }
-.zeubi {
-    background-color: #bab8b8;
+.voirplus2 {
+    background-color: #e9ecef;
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
@@ -121,4 +114,29 @@ section .title::before {
 }
 #card5 {
     margin-top: 20px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 100vw;
+  margin-block: 0em;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border: 0.10em solid grey;
+  border-radius: 100vw;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  
 }

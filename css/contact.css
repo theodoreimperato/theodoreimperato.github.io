@@ -42,7 +42,7 @@ input[type=submit]:hover {
     /* Ajouter box-sizing */
     box-sizing : border-box;
     border-radius:5px;
-    background-color:white;
+    background-color: white;
     padding:20px;
     width: 100%;
     /* redéfinition 400 + 2*20 */
@@ -69,4 +69,30 @@ h1  {
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #dc3545;
     --bs-gradient: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 100vw;
+  margin-block: 0em;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border: 0.10em solid grey;
+  border-radius: 100vw;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  
 }
