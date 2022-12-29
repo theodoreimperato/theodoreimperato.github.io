@@ -42,7 +42,7 @@ input[type=submit]:hover {
     /* Ajouter box-sizing */
     box-sizing : border-box;
     border-radius:5px;
-    background-color:white;
+    background-color:#f2f2f2;
     padding:20px;
     width: 100%;
     /* redéfinition 400 + 2*20 */
