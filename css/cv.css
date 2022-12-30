@@ -179,10 +179,10 @@ body {
 }
 @media (min-width: 1200px) {
     #parcours .date {
-        width: 13%;
+        width: 17%;
     }
     #parcours .details {
-        width: 87%;
+        width: 83%;
     }
 }
 /******************************************
