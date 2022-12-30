@@ -32,9 +32,11 @@ body {
     font-size: 2.4em;
     font-weight: 700;
     letter-spacing: -1px;
+    font-family: 'Ubuntu', sans-serif;
 }
 #cv-intro h1 span {
     color: rgb(226,0,26);
+    font-family: 'Ubuntu', sans-serif;
 }
 #cv-intro h4 span {
     color: rgb(226,0,26);
