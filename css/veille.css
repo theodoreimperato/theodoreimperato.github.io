@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'Ubuntu';
-	src: url('police/Ubuntu-Medium.ttf') format('truetype');
+    font-family: 'Ubuntu';
+    src: url('police/Ubuntu-Medium.ttf') format('truetype');
 }
 body {
     padding-top: 50px;
@@ -77,10 +77,23 @@ section .title {
     background: #e9ecef;
 }
 .voirplus2 {
-    background-color: #e9ecef;
+    background: crimson;
+    color: #fff;
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
+    transition: all 0.3s ease;
+    border: 2px solid crimson;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.voirplus:hover{
+    color: crimson;
+    background: none;
+}
+.voirplus2:hover{
+    color: crimson;
+    background: none;
 }
 .voirplus {
     display: flex;
@@ -88,6 +101,7 @@ section .title {
     justify-content: center;
     margin-top: 20px;
     font-size: 20px;
+    transition: all 0.3s ease;
 }
 .projet {
     width: 100%;
@@ -118,26 +132,26 @@ section .title::before {
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
-  height: 20px;
+    width: 15px;
+    height: 20px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 100vw;
-  margin-block: 0em;
+    background: #f1f1f1;
+    border-radius: 100vw;
+    margin-block: 0em;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
-  border: 0.10em solid grey;
-  border-radius: 100vw;
+    background: #888;
+    border: 0.10em solid grey;
+    border-radius: 100vw;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
-  
+    background: #555;
+
 }
