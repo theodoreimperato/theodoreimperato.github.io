@@ -1,3 +1,7 @@
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('police/Ubuntu-Regular.ttf') format('truetype');
+}
 body {
     padding-top: 50px;
 }
@@ -34,9 +38,21 @@ body {
     letter-spacing: -1px;
     font-family: 'Ubuntu', sans-serif;
 }
+#cv-intro h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.4em;
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-family: 'Ubuntu', sans-serif;
+}
 #cv-intro h1 span {
     color: rgb(226,0,26);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
+}
+#cv-intro h2 span {
+    color: rgb(226,0,26);
+    font-family: "Ubuntu", sans-serif;
 }
 #cv-intro h4 span {
     color: rgb(226,0,26);
@@ -137,7 +153,7 @@ body {
     padding: 0;
 }
 /* Pour empêcher la déformation du parcours scolaire selon la STA */
-@media (min-width: 500px) {
+@media (min-width: 500px){
     #parcours .date {
         width: 20%;
     }
