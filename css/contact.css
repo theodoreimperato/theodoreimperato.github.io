@@ -50,7 +50,7 @@ input[type=submit]:hover {
     margin:0 auto;
 }
 h1  {
-    color: #e2001a;
+    color: black;
     width: 100%;
     text-align: center;
 }
@@ -95,4 +95,23 @@ h1  {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
   
+}
+section .title::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: crimson;
+    transform: translateX(-50%);
+}
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
