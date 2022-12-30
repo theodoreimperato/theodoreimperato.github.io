@@ -274,3 +274,28 @@ body {
 #competences .container .classement5 {
     background-position: 0 0px;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 100vw;
+  margin-block: 0em;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border: 0.10em solid grey;
+  border-radius: 100vw;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  
+}
