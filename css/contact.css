@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700');
 @font-face {
     font-family: 'Ubuntu';
-    src: url('police/Ubuntu-Medium.ttf') format('truetype');
+    src: url('police/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
 }
 body {
     padding-top: 50px;
@@ -22,11 +23,19 @@ input[type=text], textarea, input[type=email] {
     margin-right: 0px;
     margin-left: 0px;
     resize: vertical;
+    font-family: 'Poppins', sans-serif;
+}
+#subject{
+    font-family: 'Poppins', sans-serif;
+}
+.monbouton{
+    font-family: 'Poppins', sans-serif;
 }
 label{
     margin-right: 0px;
     margin-left: 0px;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 input[type=submit] {
@@ -36,6 +45,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
 
 input[type=submit]:hover {
