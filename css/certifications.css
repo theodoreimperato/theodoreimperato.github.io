@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 @font-face {
 	font-family: 'Ubuntu';
-	src: url('police/Ubuntu-Medium.ttf') format('truetype');
+	src: url('police/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
 }
 body {
     padding-top: 50px;

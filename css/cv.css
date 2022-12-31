@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700');
 @font-face {
-	font-family: 'Ubuntu';
-	src: url('police/Ubuntu-Regular.ttf') format('truetype');
+    font-family: 'Ubuntu';
+    src: url('police/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Ubuntu2';
+    src: url('police/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('police/Poppins/Poppins-Regular.ttf') format('truetype');
 }
 body {
     padding-top: 50px;
@@ -8,6 +17,10 @@ body {
 .cadreCV {
     padding-bottom: 15px;
     background: white;
+}
+h2{
+    font-family: 'Ubuntu2';
+    font-weight: bold;
 }
 /****************************************
 * En-tête du CV
@@ -56,6 +69,7 @@ body {
 }
 #cv-intro h4 span {
     color: rgb(226,0,26);
+    font-family: "Ubuntu", sans-serif;
 }
 #cv-intro::after {
     background: url('images/ligne.png'); /* Dossier "images" est un sous-
@@ -81,6 +95,9 @@ body {
 .rubrique p{
     font-size: 1.3em;
     line-height: 1.5em;
+}
+p{
+    font-family: 'Poppins';
 }
 /******************************************
 * Parcours scolaire
@@ -294,26 +311,26 @@ body {
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
-  height: 20px;
+    width: 15px;
+    height: 20px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 100vw;
-  margin-block: 0em;
+    background: #f1f1f1;
+    border-radius: 100vw;
+    margin-block: 0em;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
-  border: 0.10em solid grey;
-  border-radius: 100vw;
+    background: #888;
+    border: 0.10em solid grey;
+    border-radius: 100vw;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
-  
+    background: #555;
+
 }
