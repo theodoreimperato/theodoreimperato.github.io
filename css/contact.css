@@ -28,6 +28,9 @@ input[type=text], textarea, input[type=email] {
 #subject{
     font-family: 'Poppins', sans-serif;
 }
+.monbouton{
+    font-family: 'Poppins', sans-serif;
+}
 label{
     margin-right: 0px;
     margin-left: 0px;
