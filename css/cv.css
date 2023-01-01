@@ -226,6 +226,26 @@ p{
     font-size: 1.2em;
     line-height: 1.5em;
 }
+@media (max-width: 500px){
+    .experience .lieu {
+        display: block;
+        margin-left: -20px;
+    }
+    .experience .date {
+        display: block;
+        margin-left: -10px;
+    }
+}
+@media (min-width: 768px){
+        .experience .lieu {
+        display: block;
+        margin-left: -10px;
+    }
+    .experience .date {
+        display: block;
+        margin-left: -5px;
+    }
+}
 /******************************************
 * Me contacter
 ******************************************/
