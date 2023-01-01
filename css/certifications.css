@@ -350,29 +350,29 @@ section .title::after {
         margin-bottom: 35px;
     }
     .attestation1 .attestation1-content .left img {
-        width: 190px;
+        width: 160px;
         object-fit: cover;
         border-radius: 6px;
     }
     .attestation2 .attestation2-content .left img {
-        width: 190px;
+        width: 160px;
         object-fit: cover;
         border-radius: 6px;
     }
     .attestation3 .attestation3-content .left img {
-        width: 190px;
+        width: 160px;
         object-fit: cover;
         border-radius: 6px;
     }
     .attestation4 .attestation4-content .left img {
-        width: 190px;
+        width: 160px;
         object-fit: cover;
         border-radius: 6px;
     }
 }
 @media (max-width: 690px) {
     .max-width, .max-width2{
-        padding: 0 23px;
+        padding: 0 0px;
     }
     .home .home-content .text-2{
         font-size: 60px;
