@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 @font-face {
-	font-family: 'Ubuntu';
-	src: url('police/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
+    font-family: 'Ubuntu';
+    src: url('police/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
 }
 body {
     padding-top: 50px;
@@ -353,21 +353,29 @@ section .title::after {
         width: 160px;
         object-fit: cover;
         border-radius: 6px;
+        display: block;
+        margin-right: 20px;
     }
     .attestation2 .attestation2-content .left img {
         width: 160px;
         object-fit: cover;
         border-radius: 6px;
+        display: block;
+        margin-right: 20px;
     }
     .attestation3 .attestation3-content .left img {
         width: 160px;
         object-fit: cover;
         border-radius: 6px;
+        display: block;
+        margin-right: 20px;
     }
     .attestation4 .attestation4-content .left img {
         width: 160px;
         object-fit: cover;
         border-radius: 6px;
+        display: block;
+        margin-right: 20px;
     }
 }
 @media (max-width: 690px) {
@@ -434,21 +442,4 @@ section .title::before {
     padding: 20px;
     width: 100%;
     margin: 0 auto;
-}
-@media (max-width: 400px) {
-    .max-width, .max-width2{
-        padding: 0 23px;
-    }
-    .home .home-content .text-2{
-        font-size: 60px;
-    }
-    .home .home-content .text-3{
-        font-size: 32px;
-    }
-    .home .home-content a{
-        font-size: 20px;
-    }
-    .services .serv-content .card{
-        width: 100%;
-    }
 }
