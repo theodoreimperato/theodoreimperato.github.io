@@ -102,6 +102,7 @@ p{
 /******************************************
 * Parcours scolaire
 ******************************************/
+
 #parcours {
     margin-top: 20px;
     position: relative;
@@ -135,6 +136,7 @@ p{
     font-size: 1.5em;
     font-weight: 700;
     display: inline-block;
+    font-family: 'Ubuntu2';
 }
 #parcours .details {
     width: 325px;
@@ -163,6 +165,7 @@ p{
     margin: 0;
     padding: 0;
     font-weight: 700;
+    font-family: 'Ubuntu2';
 }
 #parcours .details p{
     font-size: 1.3em;
@@ -212,6 +215,7 @@ p{
 .experience .lieu {
     font-size: 1.1em;
     font-weight: bold;
+    font-family: 'Ubuntu2';
 }
 .experience .date {
     font-size: 1em;
@@ -221,10 +225,12 @@ p{
     font-size: 1.45em;
     font-weight: bold;
     margin-top: -6px;
+    font-family: 'Ubuntu2'
 }
 .experience .details {
     font-size: 1.2em;
     line-height: 1.5em;
+    font-family: 'Poppins'
 }
 @media (max-width: 500px){
     .experience .lieu {
@@ -237,7 +243,7 @@ p{
     }
 }
 @media (min-width: 768px){
-        .experience .lieu {
+    .experience .lieu {
         display: block;
         margin-left: -10px;
     }
@@ -341,7 +347,6 @@ p{
     border-radius: 100vw;
     margin-block: 0em;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #888;
